@@ -3,7 +3,10 @@
 using namespace std;
 int main()
 {
-    int num1 =20, num2 = 10 ;
+    int num1, num2 ;
+
+    cout << "Enter two numbers: ";
+    cin >> num1 >> num2 ;
 
     int sum = num1 + num2;
     cout << "Summation is: "<< sum <<endl ;
@@ -14,7 +17,7 @@ int main()
     int mul = num1 * num2;
     cout << "Multiplication is: " <<mul << endl ;
 
-    int div = num1 / num2;
+    float div = (float) num1 / num2;
     cout << "Division is: " << div << endl ;
 
     int mod = num1 % num2;
