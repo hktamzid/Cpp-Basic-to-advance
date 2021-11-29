@@ -17,6 +17,7 @@
   "C_Cpp_Runner.warningsAsError": false,
   "files.associations": {
     "iostream": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "iomanip": "cpp"
   }
 }
