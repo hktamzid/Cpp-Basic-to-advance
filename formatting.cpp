@@ -28,6 +28,5 @@ int main()
 
     //float mod = num1 % num2;
    // cout << "Reminder is: " <<mod ;
-
     return 0;
 }
