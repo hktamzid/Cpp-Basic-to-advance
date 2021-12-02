@@ -11,10 +11,7 @@ int main()
     {
         cout << "Invalid mark";
     }
-    else if(mark<0)
-    {
-        cout << "Invalid mark";
-    }
+
     else if(mark>=80)
     {
         cout << "A+ grade mark";
