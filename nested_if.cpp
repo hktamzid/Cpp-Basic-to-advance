@@ -38,12 +38,10 @@ int main()
             cout << "E grade mark";
         }
     }
-    
     else
     {
         cout << "Fail mark";
     }
     
-
     return 0;
 }
