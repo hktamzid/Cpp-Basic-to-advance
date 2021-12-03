@@ -7,7 +7,9 @@ int main()
     cout << "Enter a character: ";
     cin >> ch;
 
-    if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+    ch = tolower(ch);
+
+    if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
     {
         cout << "Vowel";
     }
