@@ -10,5 +10,6 @@ int main()
     max = (num1>num2) ? num1 : num2;
     cout << max <<" is max number";
 
+    getch();
     return 0;
 }
