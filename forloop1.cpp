@@ -4,9 +4,9 @@
 using namespace std;
 int main()
 {
-   for (int i=0; i <=5; i++)
+   for (int i=1; i <=5; i++)
    {
-       cout << "Tamzid Mahmud" << endl;
+       cout << "Tamzid Mahmud: " << i << endl;
    }
    
     return 0;
