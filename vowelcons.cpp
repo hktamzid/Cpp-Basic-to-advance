@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-    int ch;
+    char ch;
     cout << "Enter any letter: ";
     cin >> ch;
 
-    towlower(ch);
+    ch = tolower(ch);
     switch (ch)
     {
     case 'a':
@@ -27,10 +27,8 @@ int main()
         cout << "Vowel";
         break;
     default:
-        cout << "Consonant";
-        
+        cout << "Consonant";    
     }
 
-    getch();
     return 0;
 }
