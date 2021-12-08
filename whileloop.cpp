@@ -7,7 +7,7 @@ int main()
     int i = 1;
     while (i <= 100)
     {
-        cout << i << endl;
+        cout << "Bangladesh: " << i << endl;
         i++;
     }
    
