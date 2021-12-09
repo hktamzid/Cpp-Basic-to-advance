@@ -14,7 +14,7 @@ int main()
             scanf("%d\t",&a[i][j]);
         
     }
-    printf("\nRead the input for matrix b: \t");
+    printf("Read the input for matrix b: \n");
     for ( i = 0; i < 2; i++)
     {
         for ( j = 0; j < 3; j++)
@@ -35,7 +35,7 @@ int main()
     {
         for ( j = 0; j < 3; j++)
         
-            printf("%5d\t",c[i][j]);
+            printf("%d\t",c[i][j]);
         printf("\n");
         
     }
