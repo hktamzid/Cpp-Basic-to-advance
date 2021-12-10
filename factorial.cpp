@@ -17,12 +17,11 @@ int fact(int n)
         return n*fact(n-1);  
     }  
 }
-//int fact (int);  
 int main()  
 {  
     int n,f;  
     printf("Enter the number whose factorial you want to calculate?");  
     scanf("%d",&n);  
-    //f = fact(n);  
+    f = fact(n);  
     printf("factorial = %d",f);  
 }
