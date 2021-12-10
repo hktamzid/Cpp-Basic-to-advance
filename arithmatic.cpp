@@ -1,11 +1,12 @@
 #include<iostream>
 #include<conio.h>
 using namespace std;
+
 int main()
 {
     int num1, num2 ;
 
-    cout << "Enter two numbers: ";
+    cout << "Enter two numbers:\n";
     cin >> num1 >> num2 ;
 
     int sum = num1 + num2;
