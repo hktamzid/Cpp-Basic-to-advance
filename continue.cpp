@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int i;
-    for(i=1; i<=20; i++)
+    for(i=1; i<=20; i+=2)
     {
         if(i==10)
         {
@@ -13,6 +13,6 @@ int main()
         }
         cout << i << endl;
     }
-
+    getch();
     return 0;
 }
