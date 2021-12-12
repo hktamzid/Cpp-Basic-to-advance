@@ -4,7 +4,8 @@ using namespace std;
 
 int main()
 {
-
+    while(1)
+    {
     int num,table;
     cout << "Enter the number that's table you want: ";
     cin >> num;
@@ -16,5 +17,7 @@ int main()
         cout << num << " + " << i << " = "<< table << endl;
     }
 
+    }
     return 0;
+
 }
