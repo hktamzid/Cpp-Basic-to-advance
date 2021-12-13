@@ -8,18 +8,17 @@ int main()
     cout << "Enter any number: ";
     cin >> n;
 
-    for( int i = 2; i < n; i++)
+    for (int i=2; i<n; i++)
     {
-        if(n % i == 0)
+        if(i%n==0)
         {
             count++;
             break;
-            //cout << "This is not prime";
-        }   
+        }
     }
-    if(count == 0)
+    if(count==0)
     {
-        cout << "This is prime" << endl;
+        cout << "This is prime";
     }
     else
     {
