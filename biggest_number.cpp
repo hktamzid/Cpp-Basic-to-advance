@@ -16,6 +16,5 @@ int main()
         cout << "Biggest number is: "<< b <<endl;
     }
     
-
     return 0;
 }
