@@ -3,7 +3,8 @@
 using namespace std;
 
 int main()
-{
+{   while(1)
+    {
     int digit;
     cout << "Enter any digit: ";
     cin >> digit;
@@ -43,9 +44,8 @@ int main()
     
     default:
         cout << "Not a digit";
-        
     }
-
-    getch();
+    }
+    //getch();
     return 0;
 }
