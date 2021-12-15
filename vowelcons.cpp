@@ -10,6 +10,7 @@ int main()
 
     ch = tolower(ch);
     switch (ch)
+    
     /*{
         case 'a':
         case 'e':
@@ -21,6 +22,7 @@ int main()
         default:
             cout << "Consonant";
     }*/
+
      {
     case 'a':
         cout << "Vowel";
