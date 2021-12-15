@@ -40,6 +40,5 @@ int main()
     default:
         cout << "Consonant";    
     }
-
     return 0;
 }
