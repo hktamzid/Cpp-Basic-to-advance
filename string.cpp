@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 int main()
 {
     char name [20];
@@ -10,5 +11,6 @@ int main()
     cin >> roll;
     cout << "My name is: "<< name << endl;
     cout << "Roll number is: "<< roll << endl;
+
     return 0;
 }
