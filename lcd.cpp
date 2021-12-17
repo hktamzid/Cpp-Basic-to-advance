@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int num1,num2,n1,n2,gcd,lcd,rem;
+    int num1,num2,n1,n2,gcd,lcm,rem;
     cout << "Enter two numbers: " << endl;
     cin >> num1 >> num2;
 
@@ -13,15 +13,15 @@ int main()
 
     while(n2!=0)
     {
-        rem = n1 % num2;
+        rem = n1 % n2;
         n1 = n2;
-        n1 = rem;
+        n2 = rem;
     }
     gcd = n1;
     cout << "GCD is: " << gcd << endl;
 
-    lcd = num1 * num2 / gcd;
-    cout << "LCD is: " << lcd << endl;
+    lcm = num1 * num2 / gcd;
+    cout << "LCD is: " << lcm << endl;
 
     return 0;
 }
