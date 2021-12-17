@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    while(1){
     int sum =0, temp, num, rem;
     cout << "Enter any positive number: ";
     cin >> num;
@@ -16,6 +17,6 @@ int main()
         temp = temp / 10;
     }
     cout << "Sum is: " << sum << endl;
-
+    }
     return 0;
 }
