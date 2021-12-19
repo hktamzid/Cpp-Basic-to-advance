@@ -17,6 +17,5 @@ int main()
     {
         cout << "Consonant";
     }
-
     return 0;
 }
