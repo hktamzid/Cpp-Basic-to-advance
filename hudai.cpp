@@ -4,17 +4,20 @@ using namespace std;
 
 int main()
 {
-    int n;
-    cout << "Enter a number: ";
-    cin >> n;
+    while(1)
+    {
+        int n;
+        cout << "Enter a number: ";
+        cin >> n;
 
-    if(n%2==0)
-    {
-        cout << "Even";
-    }
-    else
-    {
-        cout << "Odd";
+        if(n%2==0)
+        {
+            cout << "Even" << endl;
+        }
+        else
+        {
+            cout << "Odd" << endl;
+        }
     }
     return 0;
 }
