@@ -10,9 +10,11 @@ int main()
 
     if(n%2==0)
     {
-        cout << "Event";
+        cout << "Even";
     }
     else
-    cout << "Odd";
+    {
+        cout << "Odd";
+    }
     return 0;
 }
