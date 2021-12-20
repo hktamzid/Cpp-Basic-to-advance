@@ -14,6 +14,5 @@ int main()
     }
     else
     cout << "Odd";
-
     return 0;
 }
