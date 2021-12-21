@@ -15,7 +15,7 @@ int main()
         sum = sum * 10 + rem;
         temp = temp / 10;
     }
-    cout << "The sum of digit is: "<< sum << endl;
+    cout << "The reverse of digit is: "<< sum << endl;
 
     return 0;
 }       
