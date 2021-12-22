@@ -29,6 +29,6 @@ int main() {
     cout << c << endl;
     cout << d << endl;
     cout << e << endl;*/
-    
+
     return 0;
 }
