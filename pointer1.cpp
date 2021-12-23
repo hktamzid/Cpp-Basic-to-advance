@@ -12,5 +12,11 @@ int main()
     cout << &a << endl;
     cout << *ptr << endl;
 
+    *ptr = 20;
+    cout << a << endl;
+
+    ptr ++;
+    cout << ptr << endl;
+
     return 0;
 }
