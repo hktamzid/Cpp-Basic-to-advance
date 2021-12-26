@@ -16,7 +16,16 @@ int main()
         sum = sum * 10 + rem ;
         temp = temp / 10;
     }
-    cout << "Reverse of digit : " << sum << endl;
+    //cout << "Reverse of digit : " << sum << endl;
+
+    if (num == sum)
+    {
+        cout << "This is palindrome";
+    }
+    else
+    {
+        cout << "Not palindrome";
+    }
 
     return 0;
 }
