@@ -14,6 +14,10 @@ int main()
     {
         cout << "Bunk the college and party";
     }
+    else if(money>100)
+    {
+        cout << "Bunk the college;
+    }
     else
     {
         cout << "Go to college";
