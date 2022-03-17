@@ -8,19 +8,14 @@ int main()
     cin >> n;
     for (int i=2; i<n; i++)
     {
-        if(i%n==0)
+        if(n%i==0)
         {
-            count++;
-            break;
+            cout << "Not Prime";
         }
-    }
-    if(count==0)
-    {
-        cout << "This is prime";
-    }
-    else
-    {
-        cout << "This is not prime";
+        else
+        {
+            cout << "This is prime";
+        }
     }
     return 0;
 }
